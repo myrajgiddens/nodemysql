@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
 
 class App extends Component {
   constructor(props) {
@@ -31,10 +31,12 @@ render() {
               <input type="text" name="name" />
             </label>
             <input type="submit" value="Submit" />
+
           </form>
+
         </header>
 
-        
+
         <p className="App-intro">;{this.state.apiResponse}</p>
       </div>
     );
